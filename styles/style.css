@@ -1,0 +1,39 @@
+/* declare the selector for the header and its generation */
+header{
+    /* background-color: ; */
+    /* color: white; */
+    /* padding: 10px; */
+    /* text-align: ; */
+    /* justify-content: space-between; */
+    display: flex;
+    font-size: large;
+    font-weight: bold;
+    margin-bottom: 15px;
+    border: 2rem;
+   
+}
+nav ul{
+    list-style: none;
+    /* text-align: center; */
+    justify-content: space-between;
+    display: flex;
+}
+
+div.logo{
+    /* display: flex; */
+
+}
+
+h1{
+    text-align: center;
+    color: navy;
+}
+/* declare the footer selector */
+footer {
+    margin-top: 15px;
+    padding: 10px;
+    border-top: 1px solid navy;
+    text-align: center;
+    font-size: medium;
+
+}
