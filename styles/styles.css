@@ -1,37 +1,42 @@
 /* declare the selector for the header and its generation */
 header{
-    /* background-color: ; */
-    /* color: white; */
-    /* padding: 10px; */
-    /* text-align: ; */
-    /* justify-content: space-between; */
     display: flex;
     font-size: large;
     font-weight: bold;
     margin-bottom: 15px;
-    border: 2rem;
+    border: 10rem;
    
 }
 nav ul{
     list-style: none;
-    /* text-align: center; */
     justify-content: space-between;
     display: flex;
 }
 
- 
-
+nav a{
+    text-decoration: none;
+    color: black;
+    padding: 15px;
+    border: 1px solid white;
+}
 
 
 h1{
     text-align: center;
-    color: navy;
+    color: white;
+    margin-top: 15px;
+    background-color: black;
 }
+
+header p{
+    text-align: center;
+}
+
 /* declare the footer selector */
 footer {
     margin-top: 15px;
     padding: 10px;
-    border-top: 1px solid navy;
+    border-top: 2px solid #ccc;
     text-align: center;
     font-size: medium;
 
